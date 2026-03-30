@@ -292,8 +292,6 @@ export default function Home() {
               you to join us in the wedding celebrations of
             </p>
 
-
-
             <h2 className="text-[#E6D2FF] font-cormorant-upright text-center mt-14
             md:text-5xl text-[64px] lg:text-[100px] leading-tight font-bold">
              Himanshi
