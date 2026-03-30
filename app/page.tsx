@@ -254,8 +254,6 @@ export default function Home() {
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-150 pt-150">
-
-
             <img
               src="/assets/ganesh_inter.png"
               alt=""
