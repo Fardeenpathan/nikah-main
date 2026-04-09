@@ -43,8 +43,8 @@ const FloatingLamp = ({ className, style, reverse = false }: { className: string
 export default function Home() {
   const events = [
     {
-      title_ceremony: "Mehandi",
-      image: "/assets/aura_mehandi.png",
+      title_ceremony: "Mehendi",
+      image: "/assets/mehendi.webp",
       date: "Tuesday, March 10th 2026",
       venue: "Hyatt Regency Delhi",
       venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
@@ -53,8 +53,8 @@ export default function Home() {
     },
 
     {
-      title_ceremony: "Haldi",
-      image: "/assets/aura_haldi.png",
+      title_ceremony: "Manjha",
+      image: "/assets/manjha.webp",
       date: "Friday, March 13th 2026",
       venue: "Golden Gate Banquet",
       venue_address: <>Block B, Mayapuri Industrial Area Phase I, Mayapuri<br /> Delhi 110064</>,
@@ -62,8 +62,8 @@ export default function Home() {
       link: "https://maps.app.goo.gl/ywMPWwHjbXvqwiWc8",
     },
     {
-      title_ceremony: "Cocktail",
-      image: "/assets/aura_cocktail.png",
+      title_ceremony: "Sangeet",
+      image: "/assets/sangeet.webp",
       date: "Sunday, March 15th 2026",
       venue: "The Ashok Hotel",
       venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
@@ -73,7 +73,7 @@ export default function Home() {
 
     {
       title_ceremony: "Engagement",
-      image: "/assets/aura_engagement.png",
+      image: "/assets/engagement.webp",
       date: "Tuesday, March 10th 2026",
       venue: "Hyatt Regency Delhi",
       venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
@@ -82,8 +82,8 @@ export default function Home() {
     },
 
     {
-      title_ceremony: "Shaadi",
-      image: "/assets/aura_shaadi.png",
+      title_ceremony: "Nikah",
+      image: "/assets/nikah.webp",
       date: "Friday, March 13th 2026",
       venue: "The Leela Palace",
       venue_address: <>Africa Ave, Diplomatic Enclave, Chanakyapuri,<br /> Delhi 110023</>,
@@ -93,8 +93,8 @@ export default function Home() {
 
 
     {
-      title_ceremony: "Reception",
-      image: "/assets/aura_reception.png",
+      title_ceremony: "Walima",
+      image: "/assets/walima.webp",
       date: "Sunday, March 15th 2026",
       venue: "The Ashok Hotel",
       venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
@@ -248,7 +248,7 @@ export default function Home() {
 
             <span className="jacques-francois">Fardeen</span>
 
-            <span className="text-xl sm:text-3xl tracking-[10px] font-cormorant">WEDS</span>
+            <span className="jacques-francois text-xl sm:text-3xl tracking-[10px] font-cormorant">WEDS</span>
 
             <span className="jacques-francois">Zarin</span>
 
@@ -276,7 +276,7 @@ export default function Home() {
 
 
           <div className="mt-8 text-center">
-            <h2 className="text-[#FFF5B9] font-cormorant 
+            <h2 className="text-[#FFF5B9] jacques-francois 
             text-3xl sm:text-5xl lg:text-[60px] leading-tight lg:tracking-wide tracking-wider">
               INVITES
             </h2>
@@ -340,7 +340,7 @@ export default function Home() {
 
                   <a
                     href={event.link}
-                    className="text-[#FFF5B9] underline md:text-sm text-[18px] mt-2 font-cormorant"
+                    className="text-[#FFF5B9] underline md:text-sm text-[18px] mt-2 jacques-francois"
                     target="_blank"
                   >
                     See the route
@@ -395,13 +395,13 @@ export default function Home() {
 
       <div className="hidden  md:block bg-[url('/assets/sunset_img.webp')] bg-cover bg-no-repeat ">
         <div className="lg:h-335 md:h-180 flex flex-col items-center justify-center">
-          <img src="/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-60" />
+          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20" />
         </div>
       </div>
 
 
       {/* mobile visible section */}
-      <div className="md:hidden bg-[url('/assets/moonmobile_wm.png')] bg-cover bg-no-repeat">
+      <div className="md:hidden bg-[url('/assets/sunset.webp')] bg-cover bg-no-repeat">
         <div className="h-210">
         </div>
       </div>

@@ -44,7 +44,7 @@ export default function MarriageCountdown() {
                         Our families are excited that you are able to join us in celebrating what we hope will be one of the happiest days of our lives.
                     </p>
                     <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
-                       <a href="https://www.instagram.com/theinvitearc/" target="_blank"><img src="/assets/instagram.png" alt="" className="h-10 w-10"/></a>
+                       <a href="https://www.instagram.com/theinvitearc/" target="_blank"><img src="/assets/instagram.webp" alt="" className="h-10 w-10"/></a>
                        
                     </div>
                     <p className="lg:text-[16px] text-xl text-[#FFF5B9] mt-6 text-center jacques-francois">
