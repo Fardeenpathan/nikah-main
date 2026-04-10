@@ -44,7 +44,7 @@ export default function Home() {
     {
       title_ceremony: "Mehendi",
       image: "/assets/mehendi.webp",
-      date: "Tuesday, March 10th 2026",
+      date: "Tuesday, September 10th 2026",
       venue: "Hyatt Regency Delhi",
       venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
       time: "7:00 pm onwards",
@@ -54,7 +54,7 @@ export default function Home() {
     {
       title_ceremony: "Manjha",
       image: "/assets/manjha.webp",
-      date: "Friday, March 13th 2026",
+      date: "Friday, September 13th 2026",
       venue: "Golden Gate Banquet",
       venue_address: <>Block B, Mayapuri Industrial Area Phase I, Mayapuri<br /> Delhi 110064</>,
       time: "4:00pm Onwards",
@@ -63,7 +63,7 @@ export default function Home() {
     {
       title_ceremony: "Sangeet",
       image: "/assets/sangeet.webp",
-      date: "Sunday, March 15th 2026",
+      date: "Sunday, September 15th 2026",
       venue: "The Ashok Hotel",
       venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
       time: "8pm Onwards",
@@ -73,7 +73,7 @@ export default function Home() {
     {
       title_ceremony: "Engagement",
       image: "/assets/engagement.webp",
-      date: "Tuesday, March 10th 2026",
+      date: "Tuesday, September 10th 2026",
       venue: "Hyatt Regency Delhi",
       venue_address: <>Ring Road, Bhikaji Cama Place, <br />  RK Puram, New Delhi 110066</>,
       time: "7:00 pm onwards",
@@ -83,7 +83,7 @@ export default function Home() {
     {
       title_ceremony: "Nikah",
       image: "/assets/nikah.webp",
-      date: "Friday, March 13th 2026",
+      date: "Friday, September 13th 2026",
       venue: "The Leela Palace",
       venue_address: <>Africa Ave, Diplomatic Enclave, Chanakyapuri,<br /> Delhi 110023</>,
       time: "4:00pm Onwards",
@@ -94,7 +94,7 @@ export default function Home() {
     {
       title_ceremony: "Walima",
       image: "/assets/walima.webp",
-      date: "Sunday, March 15th 2026",
+      date: "Sunday, September 15th 2026",
       venue: "The Ashok Hotel",
       venue_address: <>50-B, Diplomatic Enclave,<br /> Chanakyapuri, New Delhi – 110021</>,
       time: "8pm Onwards",
@@ -240,8 +240,8 @@ export default function Home() {
         {/* <FallingLamps /> */}
         <div className=" md:pt-44 md:pb-0 relative z-10 pt-12">
 
-          <h2 className="text-[#DEE6FF]  text-center leading-tight
-     text-[50px] sm:text-5xl lg:text-[100px] lg:pb-500 md:pb-450 pb-240
+          <h2 className="text-[#FFF097]  text-center leading-tight
+     text-[50px] sm:text-5xl lg:text-[100px] lg:pb-500 md:pb-450 pb-280
   flex flex-col items-center gap-y-2">
 
             <span className="jacques-francois">Fardeen</span>
@@ -283,7 +283,7 @@ export default function Home() {
               You to join us in the wedding celebrations of
             </p>
 
-            <h2 className="text-[#FFF5B9] jacques-francois text-center mt-14
+            <h2 className="text-[#FFF097] jacques-francois text-center mt-14
             md:text-5xl text-[64px] lg:text-[80px] leading-tight font-medium">
               FARDEEN
             </h2>
@@ -297,10 +297,10 @@ export default function Home() {
 
 
 
-            <h2 className="text-[#FFF5B9] jacques-francois text-center mt-4
+            <h2 className="text-[#FFF097] jacques-francois text-center mt-4
             text-[64px] sm:text-7xl lg:text-[80px] leading-tight font-medium">
-              <span className="text-[#FFF5B9] jacques-francois text-center lg:mt-10 mt-4 
-            md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
+              <span className="text-[#FFF097] jacques-francois text-center lg:mt-10 mt-4 
+            md:text-5xl text-[82px] lg:text-[80px] leading-tight">&</span>   <br />
               ZARIN
             </h2>
 
@@ -323,7 +323,7 @@ export default function Home() {
                     className="lg:w-80 w-95 sm:w-76 h-auto"
                   />
 
-                  <h2 className="text-[#FFF5B9] jacques-francois lg:text-[45px] md:text-2xl text-[37px] mt-4 font-bold">
+                  <h2 className="text-[#FFF5B9] jacques-francois lg:text-[45px] md:text-2xl text-[37px] mt-4">
                     {event.title_ceremony}
                   </h2>
 
@@ -358,7 +358,7 @@ export default function Home() {
             <img
               src="/assets/couple_b.png"
               alt="couple"
-              className="w-60 h-108 lg:w-205 lg:h-260 object-cover"
+              className="w-60 h-108 lg:w-225 lg:h-290 object-cover"
             />
 
             {/* Center Text */}
@@ -367,7 +367,7 @@ export default function Home() {
                 MEET THE
               </p>
 
-              <h2 className="lg:text-[130px] text-5xl text-center text-[#7CE670] lg:pt-12 font-cormorant-upright md:leading-6 leading-6 pt-6">
+              <h2 className="lg:text-[130px] text-5xl text-center text-[#7CE670] lg:pt-12 font-cormorant-upright lg:leading-18 md:leading-6 leading-6 pt-6">
                 <span className="text-[#EAD670] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#EAD670] font-cormorant-upright ">Groom</span>
               </h2>
 
