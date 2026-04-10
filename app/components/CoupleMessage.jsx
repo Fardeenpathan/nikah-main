@@ -131,7 +131,7 @@ export default function CoupleMessage() {
 
             <div className="flex items-center lg:mt-20 gap-6">
                 <img
-              src="/assets/couple_img2.png"
+              src="/assets/couple_img2.webp"
               alt="couple"
               className="w-50 h-80 lg:w-205 lg:h-252 object-cover  "
             />
