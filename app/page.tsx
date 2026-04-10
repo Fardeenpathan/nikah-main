@@ -164,7 +164,7 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('/assets/respo_bg.webp')]
+    bg-[url('/assets/respo.webp')]
     md:bg-[url('/assets/bg_img3.png')]
     bg-cover
     bg-no-repeat
@@ -241,32 +241,32 @@ export default function Home() {
         <div className=" md:pt-44 md:pb-0 relative z-10 pt-12">
 
           <h2 className="text-[#FFF097]  text-center leading-tight
-     text-[50px] sm:text-5xl lg:text-[100px] lg:pb-500 md:pb-450 pb-280
+     text-[30px] md:text-5xl lg:text-[100px] lg:pb-500 md:pb-450 pb-120
   flex flex-col items-center gap-y-2">
 
-            <span className="jacques-francois">Fardeen</span>
+            <span className="jacques-francois">FARDEEN</span>
 
-            <span className="jacques-francois text-xl sm:text-3xl tracking-[10px] font-cormorant">WEDS</span>
+            <span className="jacques-francois text-xl sm:text-3xl tracking-widest font-cormorant">WEDS</span>
 
-            <span className="jacques-francois">Zarin</span>
+            <span className="jacques-francois">ZARIN</span>
 
           </h2>
 
           <div className="flex flex-col items-center text-center gap-6 mt-0  lg:pt-50 pt-0">
 
 
-            <p className="jacques-francois text-xl md:text-2xl lg:text-3xl text-[#FFF5B9] text-center">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْم</p>
-            <p className="jacques-francois text-xl md:text-2xl lg:text-3xl text-[#FFF5B9] text-center">Bismillahir Rahmanir Raheem</p>
+            <p className="jacques-francois text-base md:text-2xl lg:text-3xl text-[#FFF5B9] text-center">بِسْمِ اللّٰهِ الرَّحْمٰنِ الرَّحِيْم</p>
+            <p className="jacques-francois text-base md:text-2xl lg:text-3xl text-[#FFF5B9] text-center">Bismillahir Rahmanir Raheem</p>
 
 
 
-            <h2 className="text-[#FFF5B9] lg:text-[30px] md:text-2xl text-[20px] jacques-francois">
+            <h2 className="text-[#FFF5B9] lg:text-[30px] md:text-2xl text-base jacques-francois ">
               With the heavenly blessings of
               <br /> Mrs. Fatima Begum & Mr. Zafar Ahmed
             </h2>
 
             <hr className="lg:w-24 w-16 border-[#FFF5B9] my-4" />
-            <h2 className="text-[#FFF5B9] lg:text-[30px] md:text-2xl text-[20px] jacques-francois">
+            <h2 className="text-[#FFF5B9] lg:text-[30px] md:text-2xl text-base jacques-francois">
               Mrs. Shabana Khan & Mr. Rehan Malik
             </h2>
 
@@ -279,12 +279,12 @@ export default function Home() {
               INVITE
             </h2>
 
-            <p className="text-[#FFF5B9] jacques-francois lg:text-[30px] md:text-2xl text-[19px] mt-6">
+            <p className="text-[#FFF5B9] jacques-francois lg:text-[30px] md:text-2xl text-base mt-6">
               You to join us in the wedding celebrations of
             </p>
 
             <h2 className="text-[#FFF097] jacques-francois text-center mt-14
-            md:text-5xl text-[64px] lg:text-[80px] leading-tight font-medium">
+            md:text-5xl text-[54px] lg:text-[80px] leading-tight font-medium">
               FARDEEN
             </h2>
 
@@ -298,9 +298,9 @@ export default function Home() {
 
 
             <h2 className="text-[#FFF097] jacques-francois text-center mt-4
-            text-[64px] sm:text-7xl lg:text-[80px] leading-tight font-medium">
+            text-[54px] sm:text-7xl lg:text-[80px] leading-tight font-medium">
               <span className="text-[#FFF097] jacques-francois text-center lg:mt-10 mt-4 
-            md:text-5xl text-[82px] lg:text-[80px] leading-tight">&</span>   <br />
+            md:text-5xl text-[50px] lg:text-[80px] leading-tight">&</span>   <br />
               ZARIN
             </h2>
 
@@ -320,7 +320,7 @@ export default function Home() {
                   <img
                     src={event.image}
                     alt={event.venue}
-                    className="lg:w-80 w-95 sm:w-76 h-auto"
+                    className="lg:w-80 w-75 sm:w-76 h-auto"
                   />
 
                   <h2 className="text-[#FFF5B9] jacques-francois lg:text-[45px] md:text-2xl text-[37px] mt-4">
@@ -358,11 +358,11 @@ export default function Home() {
             <img
               src="/assets/couple_b.png"
               alt="couple"
-              className="w-60 h-108 lg:w-225 lg:h-290 object-cover"
+              className="w-60 h-138 lg:w-225 lg:h-290 object-cover"
             />
 
             {/* Center Text */}
-            <div className="flex flex-col justify-center items-center text-center">
+            <div className=" flex flex-col justify-center items-center text-center">
               <p className="font-Cormorant-upright text-2xl md:text-xl lg:text-4xl text-[#E1EF1E]">
                 MEET THE
               </p>
@@ -391,7 +391,7 @@ export default function Home() {
       <CoupleMessage />
 
       <div className="hidden  md:block bg-[url('/assets/sunset_img.webp')] bg-cover bg-no-repeat ">
-        <div className="lg:h-435 md:h-176 flex flex-col items-center">
+        <div className="lg:h-411 md:h-176 flex flex-col items-center">
           <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20 lg:mt-110 md:mt-50" />
         </div>
       </div>
