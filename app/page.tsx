@@ -276,7 +276,7 @@ export default function Home() {
           <div className="mt-8 text-center">
             <h2 className="text-[#FFF5B9] jacques-francois 
             text-3xl sm:text-5xl lg:text-[60px] leading-tight lg:tracking-wide tracking-wider">
-              INVITES
+              INVITE
             </h2>
 
             <p className="text-[#FFF5B9] jacques-francois lg:text-[30px] md:text-2xl text-[19px] mt-6">
@@ -301,7 +301,7 @@ export default function Home() {
             text-[64px] sm:text-7xl lg:text-[80px] leading-tight font-medium">
               <span className="text-[#FFF5B9] jacques-francois text-center lg:mt-10 mt-4 
             md:text-5xl text-[82px] lg:text-[150px] leading-tight">&</span>   <br />
-              Zarin
+              ZARIN
             </h2>
 
             <p className="text-[#FFF5B9] jacques-francois lg:text-[30px] md:text-2xl text-[16px] mt-2">
