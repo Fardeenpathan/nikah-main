@@ -2,7 +2,6 @@
 import { useEffect, useState, useRef, useMemo } from "react";
 import FallingLamps from "@/app/components/FallingLamps";
 import CoupleMessage from "@/app/components/CoupleMessage";
-import ThingsToKnow from "@/app/components/ThingsToKnow";
 import MarriageCountdown from "@/app/components/MarriageCountdown";
 
 const FloatingLamp = ({ className, style, reverse = false }: { className: string; style?: React.CSSProperties; reverse?: boolean }) => {
@@ -243,7 +242,7 @@ export default function Home() {
         <div className=" md:pt-44 md:pb-0 relative z-10 pt-12">
 
           <h2 className="text-[#DEE6FF]  text-center leading-tight
-     text-[50px] sm:text-5xl lg:text-[100px] lg:pb-500 md:pb-370 pb-160
+     text-[50px] sm:text-5xl lg:text-[100px] lg:pb-500 md:pb-450 pb-160
   flex flex-col items-center gap-y-2">
 
             <span className="jacques-francois">Fardeen</span>
@@ -391,18 +390,18 @@ export default function Home() {
 
 
       <CoupleMessage />
-      <ThingsToKnow />
 
       <div className="hidden  md:block bg-[url('/assets/sunset_img.webp')] bg-cover bg-no-repeat ">
-        <div className="lg:h-335 md:h-180 flex flex-col items-center justify-center">
-          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20" />
+        <div className="lg:h-335 md:h-176 flex flex-col items-center">
+          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20 lg:mt-110 md:mt-50" />
         </div>
       </div>
 
 
       {/* mobile visible section */}
-      <div className="md:hidden bg-[url('/assets/sunset.webp')] bg-cover bg-no-repeat">
-        <div className="h-210">
+      <div className="md:hidden bg-[url('/assets/sunset.png')] bg-cover bg-no-repeat">
+        <div className="h-230 flex flex-col items-center">
+          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20 mt-48" />
         </div>
       </div>
 
