@@ -241,7 +241,7 @@ export default function Home() {
         <div className="lg:pt-124 md:pt-44 md:pb-0 relative z-10 pt-12">
 
           <h2 className="text-[#FFF097]  text-center leading-tight
-     text-[30px] md:text-5xl lg:text-[100px] lg:pb-570 md:pb-450 pb-120
+     text-[30px] md:text-5xl lg:text-[100px] lg:pb-470 md:pb-450 pb-120
   flex flex-col items-center gap-y-2 lg:gap-y-5">
 
             <span className="jacques-francois">FARDEEN</span>
@@ -358,7 +358,7 @@ export default function Home() {
             <img
               src="/assets/couple_b.png"
               alt="couple"
-              className="w-60 h-138 lg:w-286 lg:h-365 object-cover"
+              className="w-60 h-138 lg:w-286 lg:h-315 object-cover"
             />
 
             {/* Center Text */}
@@ -423,7 +423,7 @@ export default function Home() {
       <CoupleMessage />
 
       <div className="hidden  md:block bg-[url('/assets/sunset_img.webp')] bg-cover bg-no-repeat ">
-        <div className="lg:h-411 md:h-176 flex flex-col items-center">
+        <div className="lg:h-326 md:h-176 flex flex-col items-center">
           <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20 lg:mt-110 md:mt-50" />
         </div>
       </div>
