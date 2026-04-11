@@ -31,7 +31,7 @@ export default function CoupleMessage() {
     return (
 
         <div className="bg-[url('/assets/bg_second.webp')] bg-cover bg-no-repeat">
-             <div className="lg:h-984 md:h-520 h-682">
+             <div className="lg:h-984 md:h-520 h-750">
                 <h1 className="lg:text-[50px] md:text-3xl text-xl text-center text-[#FFF5B9] lg:pt-40 pt-12 jacques-francois">A message from the couple</h1>
                 <h2 className="lg:text-[30px] text-lg  text-center text-[#FFF5B9] lg:px-140 px-6 lg:mt-36 mt-12 jacques-francois lg:leading-8 md:leading-8 leading-7">
                     From different traditions to one beautiful journey, join us as we celebrate love, laughter, and forever.
@@ -47,7 +47,7 @@ export default function CoupleMessage() {
                         className="w-full py-12 overflow-visible"
                         breakpoints={{
                             0: {
-                                slidesPerView: 1.25,
+                                slidesPerView: 1.50,
                             },
                             768: {
                                 slidesPerView: 2.2,
@@ -96,7 +96,7 @@ export default function CoupleMessage() {
               </div>
               <div className="flex flex-col items-center justify-center text-center">
                 <img
-                  src="/assets/staff.webp"
+                  src="/assets/staff2.webp"
                   alt="drive"
                   className="lg:h-27 lg:w-21 h-34 w-29"
                 />
@@ -129,7 +129,7 @@ export default function CoupleMessage() {
 
              
 
-            <div className="flex items-center lg:mt-60 gap-0">
+            <div className="hidden md:block flex items-center lg:mt-60 gap-0">
                 <img
               src="/assets/couple_img2.webp"
               alt="couple"
@@ -150,6 +150,28 @@ export default function CoupleMessage() {
             </div>
           </div>
 
+          {/* Mobile responsive */}
+          <div className="block md:hidden lg:mt-60 gap-0">
+            <div className="text-center">
+            <h2 className="font-cormorant-upright text-xl md:text-4xl lg:text-6xl text-[#FFF5B9] lg:pt-63 jacques-francois-upright pt-4 md:leading-12 leading-3">
+              Looking forward to <br /> seeing you
+            </h2>
+            <div className="flex flex-col-1 md:gap-4 gap-0 lg:gap-0 justify-center items-center md:not-first:mt-4">
+              <a href="#" target="_blank">
+                <img src="/assets/whatsapp.webp" alt="" className="md:w-12 md:h-12 lg:h-15 lg:w-15 h-6 w-6" />
+              </a>
+              <h2 className="font-cormorant-upright md:text-2xl lg:text-2xl text-sm text-[#FFF5B9]  jacques-francois-upright pr-4 lg:pr-45">
+                Click the Link to RSVP
+              </h2>
+            </div>
+            </div>
+              <img
+              src="/assets/couple_img2.webp"
+              alt="couple"
+              className="w-100 h-120 md:w-100 md:h-128 lg:w-285 lg:h-320 object-cover mt-[89px]"
+            />
+            
+          </div>
 
 
             </div>

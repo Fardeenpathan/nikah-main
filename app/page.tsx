@@ -164,7 +164,7 @@ export default function Home() {
       {/* hero section */}
       <div
         className="
-    bg-[url('/assets/respo.webp')]
+    bg-[url('/assets/responsive.webp')]
     md:bg-[url('/assets/bg_img3.png')]
     bg-cover
     bg-no-repeat
@@ -323,17 +323,17 @@ export default function Home() {
                     className="lg:w-80 w-75 sm:w-76 h-auto"
                   />
 
-                  <h2 className="text-[#FFF5B9] jacques-francois lg:text-[45px] md:text-2xl text-[37px] mt-4">
+                  <h2 className="text-[#FFF5B9] jacques-francois lg:text-[45px] md:text-2xl text-3xl mt-4">
                     {event.title_ceremony}
                   </h2>
 
 
 
                   <p className="text-[#FFF5B9] jacques-francois text-[14px] sm:text-base mt-2">
-                    <span className="text-[22px]">{event.date}</span>  <br />
-                    <span className="text-[24px] uppercase"> {event.venue}</span> <br />
-                    <span className="text-[20px]">{event.venue_address}</span> <br />
-                    <span className="text-[22px]">  {event.time} </span>
+                    <span className="text-base md:text-[22px]">{event.date}</span>  <br />
+                    <span className="text-[18px] md:text-[24px] uppercase"> {event.venue}</span> <br />
+                    <span className="text-[14px] md:text-[20px]">{event.venue_address}</span> <br />
+                    <span className="text-base md:text-[22px]">  {event.time} </span>
                   </p>
 
                   <a
@@ -353,7 +353,7 @@ export default function Home() {
         
 
 
-          <div className="flex items-center justify-between pt-30 lg:pt-150">
+          <div className="hidden md:block  flex items-center justify-between pt-30 lg:pt-150">
 
             <img
               src="/assets/couple_b.png"
@@ -362,7 +362,7 @@ export default function Home() {
             />
 
             {/* Center Text */}
-            <div className=" flex flex-col justify-center items-center text-center lg:mb-130">
+            <div className="flex flex-col justify-center items-center text-center lg:mb-130">
               <p className="font-Cormorant-upright text-2xl md:text-xl lg:text-4xl text-[#E1EF1E]">
                 MEET THE
               </p>
@@ -381,6 +381,38 @@ export default function Home() {
             </div>
           </div>
 
+          {/* Mobile responsive */}
+          <div className="block md:hidden pt-30 lg:pt-150">
+            {/* Center Text */}
+            <div className="flex flex-col justify-center items-center text-center lg:mb-130">
+              <p className="font-Cormorant-upright text-2xl md:text-xl lg:text-4xl text-[#E1EF1E]">
+                MEET THE
+              </p>
+
+              <h2 className="lg:text-[130px] text-5xl text-center text-[#7CE670] lg:pt-12 font-cormorant-upright lg:leading-18 md:leading-6 leading-6 pt-6">
+                <span className="text-[#EAD670] font-cormorant-upright">Bride</span> <br /> & <br /> <span className="text-[#EAD670] font-cormorant-upright ">Groom</span>
+              </h2>
+
+            </div>
+
+            
+            
+            <div className="flex items-center justify-between pt-30">
+              <img
+              src="/assets/couple_b.png"
+              alt="couple"
+              className="w-90 h-108 lg:w-286 lg:h-365 object-cover"
+            />
+            <div className="self-end">
+              <img
+                src="/assets/lights.png"
+                alt="lights"
+                className="w-20 h-58 lg:w-60 lg:h-185 object-cover"
+              />
+            </div>
+            </div>
+          </div>
+          
 
         </div>
       </div>
