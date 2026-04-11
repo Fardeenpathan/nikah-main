@@ -353,7 +353,7 @@ export default function Home() {
         
 
 
-          <div className="hidden md:block  flex items-center justify-between pt-30 lg:pt-150">
+          <div className="hidden md:block  md:flex items-center justify-between pt-30 lg:pt-150">
 
             <img
               src="/assets/couple_b.png"
@@ -397,7 +397,7 @@ export default function Home() {
 
             
             
-            <div className="flex items-center justify-between pt-30">
+            <div className="flex items-center justify-between pt-20">
               <img
               src="/assets/couple_b.png"
               alt="couple"
