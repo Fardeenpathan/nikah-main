@@ -238,15 +238,15 @@ export default function Home() {
 
 
         {/* <FallingLamps /> */}
-        <div className=" md:pt-44 md:pb-0 relative z-10 pt-12">
+        <div className="lg:pt-124 md:pt-44 md:pb-0 relative z-10 pt-12">
 
           <h2 className="text-[#FFF097]  text-center leading-tight
-     text-[30px] md:text-5xl lg:text-[100px] lg:pb-500 md:pb-450 pb-120
-  flex flex-col items-center gap-y-2">
+     text-[30px] md:text-5xl lg:text-[100px] lg:pb-570 md:pb-450 pb-120
+  flex flex-col items-center gap-y-2 lg:gap-y-5">
 
             <span className="jacques-francois">FARDEEN</span>
 
-            <span className="jacques-francois text-xl sm:text-3xl tracking-widest font-cormorant">WEDS</span>
+            <span className="jacques-francois text-xl md:text-3xl lg:text-5xl tracking-widest font-cormorant">WEDS</span>
 
             <span className="jacques-francois">ZARIN</span>
 
@@ -313,7 +313,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="flex justify-center mt-20">
+          <div className="flex justify-center mt-20 lg:mt-40">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-32 gap-16 ">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
@@ -353,16 +353,16 @@ export default function Home() {
         
 
 
-          <div className="flex items-center justify-between pt-30 lg:pt-100">
+          <div className="flex items-center justify-between pt-30 lg:pt-150">
 
             <img
               src="/assets/couple_b.png"
               alt="couple"
-              className="w-60 h-138 lg:w-225 lg:h-290 object-cover"
+              className="w-60 h-138 lg:w-286 lg:h-365 object-cover"
             />
 
             {/* Center Text */}
-            <div className=" flex flex-col justify-center items-center text-center">
+            <div className=" flex flex-col justify-center items-center text-center lg:mb-130">
               <p className="font-Cormorant-upright text-2xl md:text-xl lg:text-4xl text-[#E1EF1E]">
                 MEET THE
               </p>
@@ -376,7 +376,7 @@ export default function Home() {
               <img
                 src="/assets/lights.png"
                 alt="lights"
-                className="w-20 h-58 lg:w-60 lg:h-160 object-cover"
+                className="w-20 h-58 lg:w-60 lg:h-185 object-cover"
               />
             </div>
           </div>
