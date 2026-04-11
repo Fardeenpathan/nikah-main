@@ -42,18 +42,21 @@ export default function CoupleMessage() {
                         autoplay={{ delay: 3500, disableOnInteraction: false }}
                         loop
                         centeredSlides={true}
-                        spaceBetween={40}
+                        
                         pagination={{ clickable: true }}
                         className="w-full py-12 overflow-visible"
                         breakpoints={{
                             0: {
                                 slidesPerView: 1.50,
+                                spaceBetween: 20,
                             },
                             768: {
                                 slidesPerView: 2.2,
+                                spaceBetween: 30,
                             },
                             1024: {
                                 slidesPerView: 3,
+                                spaceBetween: 40,
                             },
                         }}
                     >
