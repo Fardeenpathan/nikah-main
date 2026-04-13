@@ -314,7 +314,7 @@ export default function Home() {
           </div>
 
           <div className="flex justify-center mt-20 lg:mt-40">
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-32 gap-16 ">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 lg:gap-24 gap-16 ">
               {events.map((event, i) => (
                 <div key={i} className="flex flex-col items-center text-center">
                   <img
@@ -330,10 +330,10 @@ export default function Home() {
 
 
                   <p className="text-[#FFF5B9] jacques-francois text-[14px] sm:text-base mt-2">
-                    <span className="text-base md:text-[22px]">{event.date}</span>  <br />
-                    <span className="text-[18px] md:text-[24px] uppercase"> {event.venue}</span> <br />
-                    <span className="text-[14px] md:text-[20px]">{event.venue_address}</span> <br />
-                    <span className="text-base md:text-[22px]">  {event.time} </span>
+                    <span className="text-base md:text-base lg:text-[22px]">{event.date}</span>  <br />
+                    <span className="text-[18px] md:text-base lg:text-[24px] uppercase"> {event.venue}</span> <br />
+                    <span className="text-[14px] md:text-base lg:text-[20px]">{event.venue_address}</span> <br />
+                    <span className="text-base md:text-base lg:text-[22px]">  {event.time} </span>
                   </p>
 
                   <a
@@ -358,11 +358,11 @@ export default function Home() {
             <img
               src="/assets/couple_b.png"
               alt="couple"
-              className="w-60 h-138 lg:w-286 lg:h-315 object-cover"
+              className="w-60 h-138 md:w-151 md:h-190 lg:w-286 lg:h-315 3xl:w-288 3xl:h-365 object-cover"
             />
 
             {/* Center Text */}
-            <div className="flex flex-col justify-center items-center text-center lg:mb-130">
+            <div className="flex flex-col justify-center items-center text-center md:mb-80 lg:mb-130">
               <p className="font-Cormorant-upright text-2xl md:text-xl lg:text-4xl text-[#E1EF1E]">
                 MEET THE
               </p>
@@ -376,7 +376,7 @@ export default function Home() {
               <img
                 src="/assets/lights.png"
                 alt="lights"
-                className="w-20 h-58 lg:w-60 lg:h-185 object-cover"
+                className="w-20 h-58 md:w-50 md:h-100 lg:w-60 lg:h-162 3xl:h-190 object-cover"
               />
             </div>
           </div>
@@ -423,7 +423,7 @@ export default function Home() {
       <CoupleMessage />
 
       <div className="hidden  md:block bg-[url('/assets/sunset_img.webp')] bg-cover bg-no-repeat ">
-        <div className="lg:h-326 md:h-176 flex flex-col items-center">
+        <div className="lg:h-326 md:h-176 3xl:h-409 flex flex-col items-center">
           <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20 lg:mt-110 md:mt-50" />
         </div>
       </div>

@@ -40,7 +40,7 @@ export default function MarriageCountdown() {
                 <div className="lg:h-130 md:h-80 h-80">
                     <h2 className="lg:text-[40px] text-3xl text-center text-[#FFF5B9] lg:pt-42 pt-12 jacques-francois">The countdown begins</h2> 
                       <h2 className="lg:text-[40px] text-2xl text-center text-[#FFF5B9] jacques-francois"> {timeLeft.days}D {timeLeft.hours}H {timeLeft.minutes}M</h2>
-                    <p className="lg:text-2xl text-xs text-[#FFF5B9] mt-4 text-center lg:px-100 md:px-25 px-3 jacques-francois">
+                    <p className="lg:text-2xl text-xs text-[#FFF5B9] mt-4 text-center 3xl:px-150 lg:px-100 md:px-55 px-3 jacques-francois">
                         Our families are excited that you are able to join us in celebrating what we hope will be one of the happiest days of our lives.
                     </p>
                     <div className="flex flex-col-1 gap-4 justify-center items-center mt-4">
