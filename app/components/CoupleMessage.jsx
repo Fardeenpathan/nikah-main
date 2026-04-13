@@ -31,7 +31,7 @@ export default function CoupleMessage() {
     return (
 
         <div className="bg-[url('/assets/bg_second.webp')] bg-cover bg-no-repeat">
-             <div className="3xl:h-983 lg:h-984 md:h-607 h-754">
+             <div className="3xl:h-983 lg:h-982 md:h-607 h-754">
                 <h1 className="lg:text-[50px] md:text-3xl text-xl text-center text-[#FFF5B9] lg:pt-40 pt-12 jacques-francois">A message from the couple</h1>
                 <h2 className="lg:text-[30px] text-lg  text-center text-[#FFF5B9] lg:px-100 px-6 md:px-30 lg:mt-36 mt-12 jacques-francois lg:leading-8 md:leading-8 leading-7">
                     From different traditions to one beautiful journey, join us as we celebrate love, laughter, and forever.
@@ -136,7 +136,7 @@ export default function CoupleMessage() {
                 <img
               src="/assets/couple_img2.webp"
               alt="couple"
-              className="w-70 h-90 md:w-140 md:h-158 lg:w-270 lg:h-309 3xl:w-300 3xl:h-336 object-cover "
+              className="w-70 h-90 md:w-140 md:h-158 lg:w-275 lg:h-309 3xl:w-300 3xl:h-336 object-cover "
             />
             <div className=" lg:ml-0">
             <h2 className="font-cormorant-upright text-xs md:text-3xl lg:text-5xl 3xl:text-6xl text-[#FFF5B9] lg:pt-63 jacques-francois-upright pt-4 md:leading-8 lg:leading-12 leading-3">
