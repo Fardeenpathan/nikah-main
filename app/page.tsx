@@ -165,7 +165,7 @@ export default function Home() {
       <div
         className="
     bg-[url('/assets/respo.webp')]
-    md:bg-[url('/assets/bg.webp')]
+    md:bg-[url('/assets/background.webp')]
     bg-cover
     bg-no-repeat
     bg-top
@@ -422,7 +422,7 @@ export default function Home() {
 
       <CoupleMessage />
 
-      <div className="hidden  md:block bg-[url('/assets/couple_sunset_img.webp')] bg-cover bg-no-repeat ">
+      <div className="hidden  md:block bg-[url('/assets/sunset_img.webp')] bg-cover bg-no-repeat ">
         <div className="lg:h-326 md:h-176 3xl:h-409 flex flex-col items-center">
           <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20 lg:mt-110 md:mt-50" />
         </div>
