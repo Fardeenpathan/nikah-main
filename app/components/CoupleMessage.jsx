@@ -30,7 +30,7 @@ export default function CoupleMessage() {
 
     return (
 
-        <div className="bg-[url('/assets/bg_second.webp')] bg-cover bg-no-repeat">
+        <div className="bg-[url('/assets/bg_img_second.webp')] bg-cover bg-no-repeat">
              <div className="3xl:h-983 lg:h-982 md:h-607 h-754">
                 <h1 className="lg:text-[50px] md:text-3xl text-xl text-center text-[#FFF5B9] lg:pt-40 pt-12 jacques-francois">A message from the couple</h1>
                 <h2 className="lg:text-[30px] text-lg  text-center text-[#FFF5B9] lg:px-100 px-6 md:px-30 lg:mt-36 mt-12 jacques-francois lg:leading-8 md:leading-8 leading-7">
