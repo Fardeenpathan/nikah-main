@@ -431,8 +431,8 @@ export default function Home() {
 
       {/* mobile visible section */}
       <div className="md:hidden bg-[url('/assets/respo_sunset.webp')] bg-cover bg-no-repeat">
-        <div className="h-230 flex flex-col items-center">
-          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20 mt-48" />
+        <div className="h-200 flex flex-col items-center">
+          <img src="/assets/logo.webp" alt="logo" width={250} height={300} className=" top-80 lg:w-70 lg:h-20 mt-24" />
         </div>
       </div>
 
