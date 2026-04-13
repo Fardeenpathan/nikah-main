@@ -165,7 +165,7 @@ export default function Home() {
       <div
         className="
     bg-[url('/assets/respo.webp')]
-    md:bg-[url('/assets/bg_img.webp')]
+    md:bg-[url('/assets/bg.webp')]
     bg-cover
     bg-no-repeat
     bg-top
